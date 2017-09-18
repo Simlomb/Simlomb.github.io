@@ -31,6 +31,13 @@ h6 {margin: 0; font-size: 1.125em; line-height: 1.333333333333333333333333333333
 p, ul, blockquote, pre, td, th, label {margin: 0; font-size: 1em; line-height: 1.5em; margin-bottom: 1.5em} /* 16px / 24px */
 small, p.small {margin: 0; font-size: 0.875em; line-height: 1.7142857142857142857142857142857em; margin-bottom: 1.7142857142857142857142857142857em} /* 14px / 24px */
 
+.h7{
+    color: #111111;
+    font-size: 15px;
+ }
+
+ <p class="h7"> I'm an extra heading </p>
+
 /* CODE */
 pre {white-space: pre; white-space: pre-wrap; word-wrap: break-word} /* Allow line wrapping of 'pre' */
 pre, code, kbd, samp {font-size: 1em; line-height: 1.5em; margin-bottom: 1.5em; font-family: Menlo, Consolas, 'DejaVu Sans Mono', Monaco, monospace}
@@ -261,6 +268,15 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
  -moz-border-radius: 4px;
  border-radius: 4px;
  width: 100%;
+}
+
+/* Image */
+.image{
+  float: left;
+  height: 250px;
+  width: 250px;
+  margin-right: 20px;
+  overflow: hidden;
 }
 
 /* Logo */
