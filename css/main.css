@@ -288,6 +288,14 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   overflow: hidden;
 }
 
+.image2{
+  float: left;
+  height: 185px;
+  width: 250px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
 /* Logo */
 .logo{
   float: left;
